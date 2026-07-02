@@ -298,6 +298,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "polos",
+            "collection_image": "shopify://shop_images/KCS-1794-A-680-7.webp",
             "collection_name": "",
             "collection_name2": "",
             "collection_btn": "Shop Polos",
@@ -478,7 +479,7 @@
           "type": "cltabs",
           "settings": {
             "title": "Men",
-            "collection": "men"
+            "collection": "all-product"
           }
         },
         "cltabs_A6DJpM": {
@@ -648,6 +649,7 @@
         "tb_height": 350,
         "mb_height": 350,
         "parallax_scroll": true,
+        "image": "shopify://shop_images/KCS-1794-A-680-6.webp",
         "alignment": "center",
         "pretext": "",
         "pcl": "#ffffff",
