@@ -15,7 +15,7 @@
         "image_WrmrR6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/summer-sale-banner_1400x_c7eefaf0-bb7d-4dba-be22-cdb1944820cb.webp",
+            "image": "shopify://shop_images/pashmina.webp",
             "ialign": "center_center",
             "hd1": "",
             "pcl": "#000000",
@@ -198,20 +198,15 @@
         "lookbook1_iTmqfW": {
           "type": "lookbook1",
           "settings": {
-            "image": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "width": "wd33-md",
             "width_mobile": "wd100-sm",
             "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
-            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p1_top": 20,
             "p1_left": 20,
-            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
             "p2_top": 25,
             "p2_left": 75,
-            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
             "p3_top": 70,
             "p3_left": 30,
-            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p4_top": 70,
             "p4_left": 75
           }
@@ -219,20 +214,15 @@
         "lookbook1_eFbbFb": {
           "type": "lookbook1",
           "settings": {
-            "image": "shopify://shop_images/Frame138_7b658c6f-ec70-43b3-829d-fdd798311c44.jpg",
             "width": "wd33-md",
             "width_mobile": "wd100-sm",
             "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
-            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p1_top": 20,
             "p1_left": 20,
-            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
             "p2_top": 25,
             "p2_left": 75,
-            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
             "p3_top": 70,
             "p3_left": 30,
-            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p4_top": 70,
             "p4_left": 75
           }
@@ -240,20 +230,15 @@
         "lookbook1_NwyV7i": {
           "type": "lookbook1",
           "settings": {
-            "image": "shopify://shop_images/nautica-ss22q1-womens-n2cr0017-delmare-fz-jacket-dark-navy-ecomm-4.jpg",
             "width": "wd33-md",
             "width_mobile": "wd100-sm",
             "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
-            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p1_top": 20,
             "p1_left": 20,
-            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
             "p2_top": 25,
             "p2_left": 75,
-            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
             "p3_top": 70,
             "p3_left": 30,
-            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p4_top": 70,
             "p4_left": 75
           }
@@ -303,7 +288,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "shirts",
-            "collection_image": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
             "collection_name": "",
             "collection_name2": "",
             "collection_btn": "Shop Shirts",
@@ -314,7 +298,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "polos",
-            "collection_image": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "collection_name": "",
             "collection_name2": "",
             "collection_btn": "Shop Polos",
@@ -335,7 +318,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "shorts",
-            "collection_image": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
             "collection_name": "",
             "collection_name2": "",
             "collection_btn": "Shop Shorts",
@@ -666,7 +648,6 @@
         "tb_height": 350,
         "mb_height": 350,
         "parallax_scroll": true,
-        "image": "shopify://shop_images/Desktop_Banner_1520_x_750_px_1_1_1512x_45d27951-b961-41c1-8eed-641edb65e318.jpg",
         "alignment": "center",
         "pretext": "",
         "pcl": "#ffffff",
