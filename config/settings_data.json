@@ -140,9 +140,9 @@
     "centerTxt": "",
     "top_header_clr": "#111",
     "main_header_fullwidth": true,
-    "logo": "shopify://shop_images/Nautica_Logo_JClass_Navy_90x_2x_e304dd33-6f2e-440a-b7a6-79de68293250.avif",
+    "logo": "shopify://shop_images/kcs-logo.svg",
     "align_logo": "center",
-    "logo_width": "90",
+    "logo_width": "120",
     "header_height": "70",
     "mobile_header_height": "50",
     "show_sticky_header": true,
@@ -337,7 +337,7 @@
               "title": "Men",
               "url": "shopify://collections/men",
               "newtab": true,
-              "mm_linklist": "men-column-1",
+              "mm_linklist": "",
               "mmcolumns": 3,
               "collection1": "mens-new-arrival",
               "collection2": "men",
@@ -445,7 +445,7 @@
             "settings": {
               "title": "Accessories",
               "url": "",
-              "mm_linklist": "accessories"
+              "mm_linklist": ""
             }
           },
           "dropdown_NJVtpY": {
@@ -453,7 +453,7 @@
             "settings": {
               "title": "Sale",
               "url": "shopify://collections/sales",
-              "mm_linklist": "sales"
+              "mm_linklist": ""
             }
           },
           "1560145007901": {
@@ -535,7 +535,7 @@
             "type": "menu",
             "settings": {
               "title": "CATEGORIES",
-              "menulinks": "categories",
+              "menulinks": "",
               "width": "wd20-md",
               "hide_mobile": false
             }
@@ -553,7 +553,7 @@
             "type": "menu",
             "settings": {
               "title": "USEFUL LINKS",
-              "menulinks": "useful-links",
+              "menulinks": "",
               "width": "wd20-md",
               "hide_mobile": false
             }
@@ -562,7 +562,7 @@
             "type": "menu",
             "settings": {
               "title": "Quick links",
-              "menulinks": "quick-links",
+              "menulinks": "",
               "width": "wd20-md",
               "hide_mobile": false
             }
@@ -778,14 +778,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "14210237200471721843": {
-        "type": "shopify://apps/aftership-returns/blocks/returns-protection/5662b508-7909-4cab-9bd2-9fd183f178fe",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {}
 }

@@ -15,7 +15,7 @@
         "image_WrmrR6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/summer-sale-banner_1400x_c7eefaf0-bb7d-4dba-be22-cdb1944820cb.webp",
+            "image": "shopify://shop_images/pashmina.webp",
             "ialign": "center_center",
             "hd1": "",
             "pcl": "#000000",
@@ -198,62 +198,59 @@
         "lookbook1_iTmqfW": {
           "type": "lookbook1",
           "settings": {
-            "image": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "image": "shopify://shop_images/kcs-763-a-5-3.webp",
             "width": "wd33-md",
             "width_mobile": "wd100-sm",
-            "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
-            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "image_link": "shopify://products/ainakaari-jama-pashmina-sozni-shawl-offwhite-multi",
+            "image1": "shopify://shop_images/kcs-763-a-5-2.webp",
             "p1_top": 20,
             "p1_left": 20,
-            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
+            "image2": "shopify://shop_images/kcs-763-a-5-1_01744427-6a4f-4985-bfbc-8c245ab2e714.webp",
             "p2_top": 25,
             "p2_left": 75,
-            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
+            "image3": "shopify://shop_images/kcs-763-a-5-3.webp",
             "p3_top": 70,
             "p3_left": 30,
-            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p4_top": 70,
             "p4_left": 75
           }
         },
-        "lookbook1_eFbbFb": {
+        "lookbook1_64enNk": {
           "type": "lookbook1",
           "settings": {
-            "image": "shopify://shop_images/Frame138_7b658c6f-ec70-43b3-829d-fdd798311c44.jpg",
+            "image": "shopify://shop_images/KCS-1793-4.webp",
             "width": "wd33-md",
             "width_mobile": "wd100-sm",
-            "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
-            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "image_link": "shopify://products/ainakaari-jama-pashmina-sozni-shawl-offwhite-multi",
+            "image1": "shopify://shop_images/kcs-763-a-5-2.webp",
             "p1_top": 20,
             "p1_left": 20,
-            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
+            "image2": "shopify://shop_images/kcs-763-a-5-1_01744427-6a4f-4985-bfbc-8c245ab2e714.webp",
             "p2_top": 25,
             "p2_left": 75,
-            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
+            "image3": "shopify://shop_images/kcs-763-a-5-3.webp",
             "p3_top": 70,
             "p3_left": 30,
-            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p4_top": 70,
             "p4_left": 75
           }
         },
-        "lookbook1_NwyV7i": {
+        "lookbook1_8tWLCf": {
           "type": "lookbook1",
           "settings": {
-            "image": "shopify://shop_images/nautica-ss22q1-womens-n2cr0017-delmare-fz-jacket-dark-navy-ecomm-4.jpg",
+            "image": "shopify://shop_images/KCS-1794-A-680-1_b1b03110-c1d0-4e5e-8120-27098c69b8f7.webp",
             "width": "wd33-md",
             "width_mobile": "wd100-sm",
-            "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
-            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "image_link": "shopify://products/ainakaari-jama-pashmina-sozni-shawl-offwhite-multi",
+            "image1": "shopify://shop_images/kcs-763-a-5-2.webp",
             "p1_top": 20,
             "p1_left": 20,
-            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
+            "image2": "shopify://shop_images/kcs-763-a-5-1_01744427-6a4f-4985-bfbc-8c245ab2e714.webp",
             "p2_top": 25,
             "p2_left": 75,
-            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
+            "image3": "shopify://shop_images/kcs-763-a-5-3.webp",
             "p3_top": 70,
             "p3_left": 30,
-            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
             "p4_top": 70,
             "p4_left": 75
           }
@@ -261,8 +258,8 @@
       },
       "block_order": [
         "lookbook1_iTmqfW",
-        "lookbook1_eFbbFb",
-        "lookbook1_NwyV7i"
+        "lookbook1_64enNk",
+        "lookbook1_8tWLCf"
       ],
       "name": "NexGi Lookbook Img",
       "settings": {
@@ -293,6 +290,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "tshirts",
+            "collection_image": "shopify://shop_images/KCS-1794-A-680-2.webp",
             "collection_name": "",
             "collection_name2": "",
             "collection_btn": "Shop t-shirts",
@@ -303,7 +301,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "shirts",
-            "collection_image": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
+            "collection_image": "shopify://shop_images/KCS-1793-2.webp",
             "collection_name": "",
             "collection_name2": "",
             "collection_btn": "Shop Shirts",
@@ -314,31 +312,32 @@
           "type": "featured_collection",
           "settings": {
             "collection": "polos",
-            "collection_image": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "collection_image": "shopify://shop_images/KCS-1792-MS-846-6.webp",
             "collection_name": "",
             "collection_name2": "",
             "collection_btn": "Shop Polos",
             "url": ""
           }
         },
-        "featured_collection_P3mFcR": {
+        "featured_collection_YK6NCp": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories",
+            "collection": "tshirts",
+            "collection_image": "shopify://shop_images/KCS-1794-A-680-2.webp",
             "collection_name": "",
             "collection_name2": "",
-            "collection_btn": "Shop Accessories",
+            "collection_btn": "Shop t-shirts",
             "url": ""
           }
         },
-        "featured_collection_WLCTVC": {
+        "featured_collection_dVp7EG": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shorts",
-            "collection_image": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
+            "collection": "shirts",
+            "collection_image": "shopify://shop_images/KCS-1793-2.webp",
             "collection_name": "",
             "collection_name2": "",
-            "collection_btn": "Shop Shorts",
+            "collection_btn": "Shop Shirts",
             "url": ""
           }
         }
@@ -347,8 +346,8 @@
         "featured_collection_w7jAe7",
         "featured_collection_JWLQhX",
         "featured_collection_B7zTpF",
-        "featured_collection_P3mFcR",
-        "featured_collection_WLCTVC"
+        "featured_collection_YK6NCp",
+        "featured_collection_dVp7EG"
       ],
       "settings": {
         "title": "",
@@ -496,36 +495,20 @@
           "type": "cltabs",
           "settings": {
             "title": "Men",
-            "collection": "men"
+            "collection": "all-product"
           }
         },
         "cltabs_A6DJpM": {
           "type": "cltabs",
           "settings": {
             "title": "Women",
-            "collection": "women"
-          }
-        },
-        "cltabs_UXX3q9": {
-          "type": "cltabs",
-          "settings": {
-            "title": "Kids",
-            "collection": "kids"
-          }
-        },
-        "cltabs_ndn9Rp": {
-          "type": "cltabs",
-          "settings": {
-            "title": "Accessories",
-            "collection": "accessories"
+            "collection": "all-product"
           }
         }
       },
       "block_order": [
         "cltabs_JDfHbU",
-        "cltabs_A6DJpM",
-        "cltabs_UXX3q9",
-        "cltabs_ndn9Rp"
+        "cltabs_A6DJpM"
       ],
       "name": "t:sections.product_tabs.name",
       "settings": {
@@ -666,7 +649,7 @@
         "tb_height": 350,
         "mb_height": 350,
         "parallax_scroll": true,
-        "image": "shopify://shop_images/Desktop_Banner_1520_x_750_px_1_1_1512x_45d27951-b961-41c1-8eed-641edb65e318.jpg",
+        "image": "shopify://shop_images/pashmina.webp",
         "alignment": "center",
         "pretext": "",
         "pcl": "#ffffff",
@@ -1062,6 +1045,7 @@
         "collection_P7whRL": {
           "type": "collection",
           "settings": {
+            "collection_image": "shopify://shop_images/KCS-1793-6.webp",
             "collection": "men",
             "collection_name": "Men",
             "color_ttl": "#ffffff",
@@ -1078,6 +1062,7 @@
         "collection_mDrwGD": {
           "type": "collection",
           "settings": {
+            "collection_image": "shopify://shop_images/KCS-1793-5.webp",
             "collection": "women",
             "collection_name": "Women",
             "color_ttl": "#ffffff",
