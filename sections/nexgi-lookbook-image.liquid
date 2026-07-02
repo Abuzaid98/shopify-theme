@@ -1,0 +1,607 @@
+{%- assign sec_st = section.settings -%}
+{%- assign sid = section.id -%}
+
+<style>
+  #nlb-{{ sid }} *, #nlb-{{ sid }} *::before, #nlb-{{ sid }} *::after { box-sizing: border-box; }
+
+  #nlb-{{ sid }} {
+    padding-top: {{ sec_st.top-offeset }}px;
+    padding-bottom: {{ sec_st.bottom-offeset }}px;
+  }
+  {% if sec_st.hide_mobile %}@media (max-width: 767px) { #nlb-{{ sid }} { display: none !important; } }{% endif %}
+  {% if sec_st.hided %}@media (min-width: 768px) { #nlb-{{ sid }} { display: none !important; } }{% endif %}
+
+  #nlb-{{ sid }} .nlb-inner {
+    {% if sec_st.section_width %}
+      width: 100%;
+    {% else %}
+      max-width: {{ sec_st.max_width }}px;
+      margin: 0 auto;
+      padding: 0 20px;
+    {% endif %}
+  }
+
+  #nlb-{{ sid }} .nlb-title { text-align: center; margin-bottom: 20px; }
+  #nlb-{{ sid }} .nlb-title h2 { font-size: {{ sec_st.title-font-size }}px; margin: 0 0 8px; font-weight: 600; }
+  #nlb-{{ sid }} .nlb-title p { margin: 0; }
+
+  #nlb-{{ sid }} .nlb-grid {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: {{ sec_st.grid-spacing}}px;
+    {% unless sec_st.section_width %}
+      margin: 0 -{{ sec_st.grid-spacing | divided_by: 2.0 }}px;
+    {% endunless %}
+  }
+
+  #nlb-{{ sid }} .nlb-item {
+    padding: 0 {{ sec_st.grid-spacing | divided_by: 2.0 }}px;
+    position: relative;
+    width: 50%;
+  }
+  #nlb-{{ sid }} .nlb-item.wd20-md { width: 20%; }
+  #nlb-{{ sid }} .nlb-item.wd25-md { width: 25%; }
+  #nlb-{{ sid }} .nlb-item.wd33-md { width: 33.333%; }
+  #nlb-{{ sid }} .nlb-item.wd50-md { width: 50%; }
+  #nlb-{{ sid }} .nlb-item.wd66-md { width: 66.666%; }
+  #nlb-{{ sid }} .nlb-item.wd75-md { width: 75%; }
+  #nlb-{{ sid }} .nlb-item.wd100  { width: 100%; }
+
+  #nlb-{{ sid }} .nlb-img-wrap { position: relative; line-height: 0; }
+  #nlb-{{ sid }} .nlb-img-wrap > img, #nlb-{{ sid }} .nlb-img-wrap > a > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: {{ sec_st.img_rad }}px;
+  }
+
+  #nlb-{{ sid }} .nlb-hotspot { position: absolute; }
+
+  #nlb-{{ sid }} .nlb-btn {
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    font-size: 20px;
+    user-select: none;
+    border: none;
+    outline: none;
+  }
+
+  #nlb-{{ sid }} .nlb-popup {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 38px;
+    z-index: 10;
+    width: {{ sec_st.tooltip_width }}px;
+    max-width: 85vw;
+    background: #fff;
+    border-radius: {{ sec_st.tooltip_img_rad }}px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    padding: 10px;
+    transition: opacity 0.25s ease;
+  }
+  #nlb-{{ sid }} .nlb-popup.active { opacity: 1; visibility: visible; }
+  #nlb-{{ sid }} .nlb-popup img { width: 100%; height: auto; display: block; }
+
+  #nlb-{{ sid }} .nlb-close {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    z-index: 11;
+    background: #111;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  @media (max-width: 767px) {
+    #nlb-{{ sid }} {
+      padding-top: {{ sec_st.top-offeset-mbl }}px;
+      padding-bottom: {{ sec_st.bottom-offeset-mbl }}px;
+    }
+    #nlb-{{ sid }} .nlb-title h2 { font-size: -{{ sec_st.title-font-size-mbl }}px; }
+    #nlb-{{ sid }} .nlb-grid { margin: 0 -{{ sec_st.grid-spacing-mbl | divided_by: 2.0 }}px; row-gap: {{ sec_st.grid-spacing-mbl }}px;}
+    #nlb-{{ sid }} .nlb-item {
+      padding: 0 {{ sec_st.grid-spacing-mbl | divided_by: 2.0 }}px ;
+      width: 100%;
+    }
+    #nlb-{{ sid }} .nlb-item.wd20-md,
+    #nlb-{{ sid }} .nlb-item.wd25-md,
+    #nlb-{{ sid }} .nlb-item.wd33-md,
+    #nlb-{{ sid }} .nlb-item.wd50-md,
+    #nlb-{{ sid }} .nlb-item.wd66-md,
+    #nlb-{{ sid }} .nlb-item.wd75-md,
+    #nlb-{{ sid }} .nlb-item.wd100 { width: 100%; }
+    #nlb-{{ sid }} .nlb-item.wd25-sm  { width: 25%; }
+    #nlb-{{ sid }} .nlb-item.wd33-sm  { width: 33.333%; }
+    #nlb-{{ sid }} .nlb-item.wd50-sm  { width: 50%; }
+    #nlb-{{ sid }} .nlb-item.wd66-sm  { width: 66.666%; }
+    #nlb-{{ sid }} .nlb-item.wd75-sm  { width: 75%; }
+    #nlb-{{ sid }} .nlb-popup { max-width: min({{ sec_st.tooltip_width }}px, 85vw); }
+  }
+</style>
+
+<div id="nlb-{{ sid }}">
+  <div class="nlb-inner">
+    {%- if sec_st.title != blank or sec_st.subtitle != blank -%}
+      <div class="nlb-title">
+        {%- if sec_st.title != blank -%}<h2>{{ sec_st.title }}</h2>{%- endif -%}
+        {%- if sec_st.subtitle != blank -%}<p>{{ sec_st.subtitle }}</p>{%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="nlb-grid">
+      {%- for block in section.blocks -%}
+        {%- assign blk_st = block.settings -%}
+        {%- if blk_st.image != blank -%}
+          <div class="nlb-item {{ blk_st.width }} {{ blk_st.width_mobile }}" {{ block.shopify_attributes }}>
+            <div class="nlb-img-wrap">
+              {%- if blk_st.image_link != blank -%}<a href="{{ blk_st.image_link }}" style="display:block;line-height:0;">{%- endif -%}
+              <img
+                src="{{ blk_st.image | image_url: width: 300 }}"
+                srcset="
+                  {%- if blk_st.image.width >= 300 -%}{{ blk_st.image | image_url: width: 300 }} 300w,{%- endif -%}
+                  {%- if blk_st.image.width >= 500 -%}{{ blk_st.image | image_url: width: 500 }} 500w,{%- endif -%}
+                  {%- if blk_st.image.width >= 800 -%}{{ blk_st.image | image_url: width: 800 }} 800w,{%- endif -%}
+                  {%- if blk_st.image.width >= 1200 -%}{{ blk_st.image | image_url: width: 1200 }} 1200w,{%- endif -%}
+                  {{ blk_st.image | image_url: width: blk_st.image.width }} {{ blk_st.image.width }}w
+                "
+                sizes="(max-width: 767px) 50vw, 50vw"
+                width="{{ blk_st.image.width }}"
+                height="{{ blk_st.image.height }}"
+                alt="{{ blk_st.image.alt | escape }}"
+                loading="lazy"
+              />
+              {%- if blk_st.image_link != blank -%}</a>{%- endif -%}
+
+              {%- if blk_st.image1 != blank -%}
+                <div class="nlb-hotspot" style="top:{{ blk_st.p1_top }}%;left:{{ blk_st.p1_left }}%;">
+                  <span class="nlb-btn">+</span>
+                  <div class="nlb-popup">
+                    <span class="nlb-close">&times;</span>
+                    <img src="{{ blk_st.image1 | image_url: width: 300 }}" width="{{ blk_st.image1.width }}" height="{{ blk_st.image1.height }}" alt="{{ blk_st.image1.alt | escape }}" loading="lazy" />
+                  </div>
+                </div>
+              {%- endif -%}
+
+              {%- if blk_st.image2 != blank -%}
+                <div class="nlb-hotspot" style="top:{{ blk_st.p2_top }}%;left:{{ blk_st.p2_left }}%;">
+                  <span class="nlb-btn">+</span>
+                  <div class="nlb-popup">
+                    <span class="nlb-close">&times;</span>
+                    <img src="{{ blk_st.image2 | image_url: width: 300 }}" width="{{ blk_st.image2.width }}" height="{{ blk_st.image2.height }}" alt="{{ blk_st.image2.alt | escape }}" loading="lazy" />
+                  </div>
+                </div>
+              {%- endif -%}
+
+              {%- if blk_st.image3 != blank -%}
+                <div class="nlb-hotspot" style="top:{{ blk_st.p3_top }}%;left:{{ blk_st.p3_left }}%;">
+                  <span class="nlb-btn">+</span>
+                  <div class="nlb-popup">
+                    <span class="nlb-close">&times;</span>
+                    <img src="{{ blk_st.image3 | image_url: width: 300 }}" width="{{ blk_st.image3.width }}" height="{{ blk_st.image3.height }}" alt="{{ blk_st.image3.alt | escape }}" loading="lazy" />
+                  </div>
+                </div>
+              {%- endif -%}
+
+              {%- if blk_st.image4 != blank -%}
+                <div class="nlb-hotspot" style="top:{{ blk_st.p4_top }}%;left:{{ blk_st.p4_left }}%;">
+                  <span class="nlb-btn">+</span>
+                  <div class="nlb-popup">
+                    <span class="nlb-close">&times;</span>
+                    <img src="{{ blk_st.image4 | image_url: width: 300 }}" width="{{ blk_st.image4.width }}" height="{{ blk_st.image4.height }}" alt="{{ blk_st.image4.alt | escape }}" loading="lazy" />
+                  </div>
+                </div>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var sec = document.getElementById('nlb-{{ sid }}');
+    if (!sec) return;
+
+    function closeAll() {
+      sec.querySelectorAll('.nlb-popup.active').forEach(function (p) {
+        p.classList.remove('active');
+      });
+    }
+
+    function positionPopup(btn, popup) {
+      var btnRect = btn.getBoundingClientRect();
+      var popupWidth = parseInt(window.getComputedStyle(popup).width) || 180;
+
+      // If there isn't enough space to the left, open rightward; otherwise open leftward
+      if (btnRect.left < popupWidth) {
+        popup.style.left = '0';
+        popup.style.right = 'auto';
+      } else {
+        popup.style.right = '0';
+        popup.style.left = 'auto';
+      }
+    }
+
+    sec.querySelectorAll('.nlb-btn').forEach(function (btn) {
+      var popup = btn.nextElementSibling;
+      if (popup) positionPopup(btn, popup);
+
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var wasActive = popup && popup.classList.contains('active');
+        closeAll();
+
+        if (popup && !wasActive) {
+          positionPopup(btn, popup);
+          popup.classList.add('active');
+        }
+      });
+    });
+
+    sec.querySelectorAll('.nlb-close').forEach(function (cl) {
+      cl.addEventListener('click', function (e) {
+        e.stopPropagation();
+        cl.closest('.nlb-popup').classList.remove('active');
+      });
+    });
+
+    document.addEventListener('click', closeAll);
+  })();
+</script>
+
+{% schema %}
+  {
+    "name": "NexGi Lookbook Img",
+    "class": "lookbook-section",
+    "max_blocks": 50,
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Section Title",
+        "default": "Lookbook Shop"
+      },
+      {
+        "type": "textarea",
+        "id": "subtitle",
+        "label": "Subtitle",
+        "default": "Describe your products, collection etc..."
+      },
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "range",
+        "id": "top-offeset",
+        "label": "Top Spacing",
+        "default": 40,
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "bottom-offeset",
+        "label": "Bottom Spacing",
+        "default": 40,
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "top-offeset-mbl",
+        "label": "Top Spacing",
+        "default": 24,
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "bottom-offeset-mbl",
+        "label": "Bottom Spacing",
+        "default": 24,
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "section_width",
+        "label": "Full Width",
+        "default": false
+      },
+      {
+        "type": "range",
+        "id": "max_width",
+        "label": "Max Width",
+        "info": "Only applies when Full Width is disabled",
+        "default": 1200,
+        "min": 800,
+        "max": 1800,
+        "step": 10,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "npd",
+        "label": "No Padding",
+        "info": "Remove section side padding (full-width only)",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "hide_mobile",
+        "label": "Hide on Mobile",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "hided",
+        "label": "Hide on Desktop",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "Style"
+      },
+      {
+        "type": "range",
+        "id": "title-font-size",
+        "label": "Title Font Size(Desktop)",
+        "default": 32,
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "title-font-size-mbl",
+        "label": "Title Font Size (Mobile)",
+        "default": 24,
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px"
+      },
+      {
+        "type": "header",
+        "content": "Grid Settings"
+      },
+      {
+        "type": "range",
+        "id": "grid-spacing",
+        "label": "Grid Spacing",
+        "default": 15,
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "grid-spacing-mbl",
+        "label": "Grid Spacing (Mobile)",
+        "default": 5,
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "img_rad",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "label": "Main Image Border Radius",
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "tooltip_width",
+        "label": "Tooltip Image Width",
+        "default": 180,
+        "min": 100,
+        "max": 420,
+        "step": 10,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "tooltip_img_rad",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "label": "Tooltip Image Border Radius",
+        "unit": "px",
+        "default": 0
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Lookbook Item",
+        "type": "lookbook1",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Main Image"
+          },
+          {
+            "type": "select",
+            "id": "width",
+            "label": "Desktop Width",
+            "default": "wd50-md",
+            "info": "Percentage of the row this image occupies on desktop",
+            "options": [
+              { "value": "wd20-md", "label": "20%" },
+              { "value": "wd25-md", "label": "25%" },
+              { "value": "wd33-md", "label": "33%" },
+              { "value": "wd50-md", "label": "50%" },
+              { "value": "wd66-md", "label": "66%" },
+              { "value": "wd75-md", "label": "75%" },
+              { "value": "wd100",   "label": "100%" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "width_mobile",
+            "label": "Mobile Width",
+            "default": "wd100-sm",
+            "info": "Percentage of the row this image occupies on mobile",
+            "options": [
+              { "value": "wd25-sm",  "label": "25%" },
+              { "value": "wd33-sm",  "label": "33%" },
+              { "value": "wd50-sm",  "label": "50%" },
+              { "value": "wd66-sm",  "label": "66%" },
+              { "value": "wd75-sm",  "label": "75%" },
+              { "value": "wd100-sm", "label": "100% (default)" }
+            ]
+          },
+          {
+            "type": "url",
+            "id": "image_link",
+            "label": "Image Link"
+          },
+          {
+            "type": "header",
+            "content": "Product Hotspots"
+          },
+          {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Select Image 1"
+          },
+          {
+            "type": "range",
+            "id": "p1_top",
+            "label": "Top Position",
+            "default": 20,
+            "min": 1,
+            "max": 90,
+            "step": 1,
+            "unit": "%"
+          },
+          {
+            "type": "range",
+            "id": "p1_left",
+            "label": "Left Position",
+            "default": 20,
+            "min": 1,
+            "max": 90,
+            "step": 1,
+            "unit": "%"
+          },
+          {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Select Image 2"
+          },
+          {
+            "type": "range",
+            "id": "p2_top",
+            "label": "Top Position",
+            "default": 25,
+            "min": 1,
+            "max": 90,
+            "step": 1,
+            "unit": "%"
+          },
+          {
+            "type": "range",
+            "id": "p2_left",
+            "label": "Left Position",
+            "default": 75,
+            "min": 1,
+            "max": 90,
+            "step": 1,
+            "unit": "%"
+          },
+          {
+            "type": "image_picker",
+            "id": "image3",
+            "label": "Select Image 3"
+          },
+          {
+            "type": "range",
+            "id": "p3_top",
+            "label": "Top Position",
+            "default": 70,
+            "min": 1,
+            "max": 90,
+            "step": 1,
+            "unit": "%"
+          },
+          {
+            "type": "range",
+            "id": "p3_left",
+            "label": "Left Position",
+            "default": 30,
+            "min": 1,
+            "max": 90,
+            "step": 1,
+            "unit": "%"
+          },
+          {
+            "type": "image_picker",
+            "id": "image4",
+            "label": "Select Image 4"
+          },
+          {
+            "type": "range",
+            "id": "p4_top",
+            "label": "Top Position",
+            "default": 70,
+            "min": 1,
+            "max": 90,
+            "step": 1,
+            "unit": "%"
+          },
+          {
+            "type": "range",
+            "id": "p4_left",
+            "label": "Left Position",
+            "default": 75,
+            "min": 1,
+            "max": 90,
+            "step": 1,
+            "unit": "%"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "NexGi Lookbook Img",
+        "category": "Other"
+      }
+    ]
+  }
+{% endschema %}

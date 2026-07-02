@@ -1,0 +1,138 @@
+<!-- Store Locator Section -->
+<div class="stores">  
+    
+  <div class="stores__top">
+    <div class="page-width">
+    
+      <h1 class="tc">FIND YOUR DREAM CLOTHES AT NAUTICA!</h1>
+      <div class="stores__tabs">
+        <p>Popular Locations</p>
+        <ul>
+          {% for block in section.blocks %}
+            {% if block.settings.tabName != ""  %}
+              <li>{{ block.settings.tabName }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>      
+    </div>      
+  </div>
+
+  <div class="page-width">
+    <div class="stores__content">
+      <div class="stores__left">
+        <h2>Stores</h2>
+
+          {% for block in section.blocks %}
+            {% if block.settings.storeName != '' %}
+              <div class="stores__details">
+                <p class="stores__name"><b>{{ block.settings.storeName }}</b></p>
+                <p class="stores__city">{{ block.settings.storeCity }}</p>
+                <p class="stores__timing">{{ block.settings.storeTiming }}</p>
+                <p class="stores__address">{{ block.settings.storeAddress }}</p>
+                <p class="stores__distance"><b>{{ block.settings.storeDistance }}</b></p>
+                <p class="stores__phone"> <i class="pegk pe-7s-call"></i> <a href="tel:{{ block.settings.storePhone }}">{{ block.settings.storePhone }}</a> </p>
+                <p class="stores__email"><i class="pegk pe-7s-mail"></i> <a href="mailto:{{ block.settings.storeEmail }}">{{ block.settings.storeEmail }}</a> </p>
+                <p class="stores__direction"><a href="{{ block.settings.storeDirectionUrl }}" target="_blank">GET DIRECTIONS</a></p>
+              </div>
+            {% endif %}
+          {% endfor %}
+        
+      </div>
+      <div class="stores__right">
+        {% for block in section.blocks %}
+          {% if block.settings.storeLocationIframe != '' %}
+            <div class="stores__map">
+              {{ block.settings.storeLocationIframe }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Store Finder",
+  "tag": "section",
+  "class": "store-finder-section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "Combined-block",
+      "name": "Store Location",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tabName",
+          "label": "Tab Name",
+          "default": "Store Location"
+        },
+        {
+          "type": "text",
+          "id": "storeName",
+          "label": "Store Name",
+          "default": "Store Name"
+        },
+        {
+          "type": "text",
+          "id": "storeCity",
+          "label": "Store City",
+          "default": "City"
+        },
+        {
+          "type": "text",
+          "id": "storeTiming",
+          "label": "Store Timing",
+          "default": "Open Daily: 9 AM – 10 PM"
+        },
+        {
+          "type": "textarea",
+          "id": "storeAddress",
+          "label": "Store Address",
+          "default": "Enter store address here"
+        },
+        {
+          "type": "text",
+          "id": "storeDistance",
+          "label": "Store Distance",
+          "default": "Distance from location"
+        },
+        {
+          "type": "text",
+          "id": "storePhone",
+          "label": "Store Phone (with country code)",
+          "default": "+971xxxxxxxxx"
+        },
+        {
+          "type": "text",
+          "id": "storeEmail",
+          "label": "Store Email",
+          "default": "store@example.com"
+        },
+        {
+          "type": "url",
+          "id": "storeDirectionUrl",
+          "label": "Store Direction URL (Google Maps Link)"
+        },
+        {
+          "type": "html",
+          "id": "storeLocationIframe",
+          "label": "Store Location Iframe (Google Maps Embed Code)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Store Finder",
+      "category": "Custom"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["page"]
+  }
+}
+{% endschema %}

@@ -1,0 +1,9 @@
+.product-single .share-mobile-nexgi .social-sharing{
+    text-align: left;
+    margin-top: -20px;
+}
+@media (min-width: 767px) {
+    .mfpbox {
+        max-width: 1000px;
+    }
+}

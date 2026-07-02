@@ -1,0 +1,1479 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_WrmrR6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/summer-sale-banner_1400x_c7eefaf0-bb7d-4dba-be22-cdb1944820cb.webp",
+            "ialign": "center_center",
+            "hd1": "",
+            "pcl": "#000000",
+            "phbg": "#ffffff",
+            "title": "",
+            "tcl": "#ffffff",
+            "hd3": "",
+            "cl": "#ffffff",
+            "hideh3": false,
+            "btn": "",
+            "link": "shopify://collections/all-products",
+            "btn1window": false,
+            "btn-style": "btn3",
+            "display_btn": false,
+            "btn2": "Shop Now",
+            "link2": "shopify://collections",
+            "btn2window": false,
+            "btn-style1": "btn5",
+            "contwd": 1300,
+            "text_width": 550,
+            "text-left": true,
+            "txtpos": "f-aic-md f-jcs-md",
+            "txtposm": "f-jcc f-aic"
+          }
+        },
+        "image_cFX3tz": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "ialign": "center_center",
+            "hd1": "",
+            "pcl": "#000000",
+            "phbg": "#ffffff",
+            "title": "",
+            "tcl": "#ffffff",
+            "hd3": "",
+            "cl": "#ffffff",
+            "hideh3": false,
+            "btn": "",
+            "link": "shopify://collections/all-products",
+            "btn1window": false,
+            "btn-style": "btn3",
+            "display_btn": false,
+            "btn2": "Shop Now",
+            "link2": "shopify://collections",
+            "btn2window": false,
+            "btn-style1": "btn5",
+            "contwd": 1300,
+            "text_width": 550,
+            "text-left": true,
+            "txtpos": "f-aic-md f-jcs-md",
+            "txtposm": "f-jcc f-aic"
+          }
+        },
+        "1561726660568-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "ialign": "center_center",
+            "hd1": "",
+            "pcl": "#000000",
+            "phbg": "#ffffff",
+            "title": "",
+            "tcl": "#ffffff",
+            "hd3": "",
+            "cl": "#ffffff",
+            "hideh3": false,
+            "btn": "",
+            "link": "shopify://collections/all-products",
+            "btn1window": false,
+            "btn-style": "btn3",
+            "display_btn": false,
+            "btn2": "Shop Now",
+            "link2": "shopify://collections",
+            "btn2window": false,
+            "btn-style1": "btn5",
+            "contwd": 1300,
+            "text_width": 550,
+            "text-left": true,
+            "txtpos": "f-aic-md f-jcs-md",
+            "txtposm": "f-jcc f-aic"
+          }
+        },
+        "image_fUrB8a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "ialign": "center_center",
+            "hd1": "",
+            "pcl": "#000000",
+            "phbg": "#ffffff",
+            "title": "",
+            "tcl": "#ffffff",
+            "hd3": "",
+            "cl": "#000000",
+            "hideh3": true,
+            "btn": "",
+            "link": "shopify://collections/new-arrivals-w",
+            "btn1window": false,
+            "btn-style": "bdr-btn1",
+            "display_btn": false,
+            "btn2": "Shop now",
+            "link2": "",
+            "btn2window": false,
+            "btn-style1": "btn1",
+            "contwd": 1400,
+            "text_width": 550,
+            "text-left": true,
+            "txtpos": "f-jce-md f-aie-md",
+            "txtposm": "f-jcc f-aie"
+          }
+        }
+      },
+      "block_order": [
+        "image_WrmrR6",
+        "image_cFX3tz",
+        "1561726660568-0",
+        "image_fUrB8a"
+      ],
+      "settings": {
+        "top-offeset": "none",
+        "npd": true,
+        "hided": false,
+        "hide_mobile": false,
+        "section_width": false,
+        "ht": "1",
+        "htd": 700,
+        "htt": 550,
+        "htm": 500,
+        "isovr": false,
+        "obg": "#3d4246",
+        "oopt": 0,
+        "brd": 0,
+        "pfs": 14,
+        "pfsm": 13,
+        "pff": "ft1",
+        "pfw": "500",
+        "plh": 1.2,
+        "pmb": 5,
+        "pmbm": 5,
+        "bfs": 70,
+        "bfsm": 28,
+        "bff": "ft2",
+        "bfw": "500",
+        "blh": 1,
+        "bmb": 20,
+        "bmbm": 10,
+        "dfs": 18,
+        "dfsm": 15,
+        "dff": "ft1",
+        "dfw": "400",
+        "dlh": 1.2,
+        "dmb": 35,
+        "dmbm": 15,
+        "btn-size": "btn-lg",
+        "btn-sizem": "mob-btn-md",
+        "txtanimation": true,
+        "anim": "st2",
+        "isbox": false,
+        "isboxm": false,
+        "tbg": "#ffffff",
+        "opt": 0.9,
+        "brad": 0,
+        "autoplay": true,
+        "speed": 7,
+        "arrow": true,
+        "hidema": false,
+        "arrowc": "#000000",
+        "arrowbg": "#ffffff",
+        "dot": false,
+        "hidemd": false,
+        "dots": "#000000",
+        "snow_effect": false,
+        "snow_style": "style1"
+      }
+    },
+    "nexgi_lookbook_image_BQHGTm": {
+      "type": "nexgi-lookbook-image",
+      "blocks": {
+        "lookbook1_iTmqfW": {
+          "type": "lookbook1",
+          "settings": {
+            "image": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "width": "wd33-md",
+            "width_mobile": "wd100-sm",
+            "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
+            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "p1_top": 20,
+            "p1_left": 20,
+            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
+            "p2_top": 25,
+            "p2_left": 75,
+            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
+            "p3_top": 70,
+            "p3_left": 30,
+            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "p4_top": 70,
+            "p4_left": 75
+          }
+        },
+        "lookbook1_eFbbFb": {
+          "type": "lookbook1",
+          "settings": {
+            "image": "shopify://shop_images/Frame138_7b658c6f-ec70-43b3-829d-fdd798311c44.jpg",
+            "width": "wd33-md",
+            "width_mobile": "wd100-sm",
+            "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
+            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "p1_top": 20,
+            "p1_left": 20,
+            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
+            "p2_top": 25,
+            "p2_left": 75,
+            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
+            "p3_top": 70,
+            "p3_left": 30,
+            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "p4_top": 70,
+            "p4_left": 75
+          }
+        },
+        "lookbook1_NwyV7i": {
+          "type": "lookbook1",
+          "settings": {
+            "image": "shopify://shop_images/nautica-ss22q1-womens-n2cr0017-delmare-fz-jacket-dark-navy-ecomm-4.jpg",
+            "width": "wd33-md",
+            "width_mobile": "wd100-sm",
+            "image_link": "shopify://products/10-classic-fit-stretch-short-grey",
+            "image1": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "p1_top": 20,
+            "p1_left": 20,
+            "image2": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
+            "p2_top": 25,
+            "p2_left": 75,
+            "image3": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
+            "p3_top": 70,
+            "p3_left": 30,
+            "image4": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "p4_top": 70,
+            "p4_left": 75
+          }
+        }
+      },
+      "block_order": [
+        "lookbook1_iTmqfW",
+        "lookbook1_eFbbFb",
+        "lookbook1_NwyV7i"
+      ],
+      "name": "NexGi Lookbook Img",
+      "settings": {
+        "title": "Lookbook Shop",
+        "subtitle": "Describe your products, collection etc...",
+        "top-offeset": 40,
+        "bottom-offeset": 40,
+        "top-offeset-mbl": 24,
+        "bottom-offeset-mbl": 24,
+        "section_width": false,
+        "max_width": 1200,
+        "npd": false,
+        "hide_mobile": false,
+        "hided": false,
+        "title-font-size": 24,
+        "title-font-size-mbl": 24,
+        "grid-spacing": 30,
+        "grid-spacing-mbl": 20,
+        "img_rad": 0,
+        "tooltip_width": 180,
+        "tooltip_img_rad": 0
+      }
+    },
+    "collection_list_LUGgDt": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_w7jAe7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tshirts",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop t-shirts",
+            "url": ""
+          }
+        },
+        "featured_collection_JWLQhX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shirts",
+            "collection_image": "shopify://shop_images/nautica-competition-ss22q1-mens-n7f00618-tambja-jacket-multi-ecomm-2.jpg",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop Shirts",
+            "url": ""
+          }
+        },
+        "featured_collection_B7zTpF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "polos",
+            "collection_image": "shopify://shop_images/NAUTICA_COMPETITION_SS22Q1_MENS_N7F00536_PERCHFZ_FZJACKET_DARKNAVY_ECOMM_D.jpg",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop Polos",
+            "url": ""
+          }
+        },
+        "featured_collection_P3mFcR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop Accessories",
+            "url": ""
+          }
+        },
+        "featured_collection_WLCTVC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shorts",
+            "collection_image": "shopify://shop_images/cap_100x_855f832e-fbcd-4480-9afc-a4e571a98c6d.avif",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop Shorts",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_w7jAe7",
+        "featured_collection_JWLQhX",
+        "featured_collection_B7zTpF",
+        "featured_collection_P3mFcR",
+        "featured_collection_WLCTVC"
+      ],
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "top-offeset": "small",
+        "section_width": true,
+        "npd": true,
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "bgg": "",
+        "grid-spacing": 15,
+        "grid-spacing-mbl": 5,
+        "grid": 5,
+        "tablet-grid": 2,
+        "mobile-grid": 2,
+        "style": "st4",
+        "textalign": "tl",
+        "leftpadzero": false,
+        "product_count": false,
+        "img_rad": 0,
+        "disable_zoom": false,
+        "tfs": 25,
+        "tfsm": 14,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.2,
+        "fs": 13,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.2,
+        "cl": "#ffffff",
+        "bg": "#0d223f",
+        "opt": 0,
+        "bdr": 0,
+        "show_buttons": true,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "enable_carousel": true,
+        "autoplay": true,
+        "speed": 5
+      }
+    },
+    "collection_list_xe9YPh": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_D6c3M4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tshirts",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop t-shirts",
+            "url": ""
+          }
+        },
+        "featured_collection_FFzY4t": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shirts",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop Shirts",
+            "url": ""
+          }
+        },
+        "featured_collection_zfFDyV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "polos",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop Polos",
+            "url": ""
+          }
+        },
+        "featured_collection_DcwqtX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women-accessories",
+            "collection_name": "",
+            "collection_name2": "",
+            "collection_btn": "Shop Accessories",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_D6c3M4",
+        "featured_collection_FFzY4t",
+        "featured_collection_zfFDyV",
+        "featured_collection_DcwqtX"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "top-offeset": "small",
+        "section_width": true,
+        "npd": true,
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "bgg": "",
+        "grid-spacing": 15,
+        "grid-spacing-mbl": 5,
+        "grid": 4,
+        "tablet-grid": 2,
+        "mobile-grid": 2,
+        "style": "st4",
+        "textalign": "tl",
+        "leftpadzero": false,
+        "product_count": false,
+        "img_rad": 0,
+        "disable_zoom": false,
+        "tfs": 25,
+        "tfsm": 14,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.2,
+        "fs": 13,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.2,
+        "cl": "#ffffff",
+        "bg": "#0d223f",
+        "opt": 0,
+        "bdr": 0,
+        "show_buttons": true,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "enable_carousel": true,
+        "autoplay": true,
+        "speed": 5
+      }
+    },
+    "collection_tab_Ay6kBn": {
+      "type": "collection-tab",
+      "blocks": {
+        "cltabs_JDfHbU": {
+          "type": "cltabs",
+          "settings": {
+            "title": "Men",
+            "collection": "men"
+          }
+        },
+        "cltabs_A6DJpM": {
+          "type": "cltabs",
+          "settings": {
+            "title": "Women",
+            "collection": "women"
+          }
+        },
+        "cltabs_UXX3q9": {
+          "type": "cltabs",
+          "settings": {
+            "title": "Kids",
+            "collection": "kids"
+          }
+        },
+        "cltabs_ndn9Rp": {
+          "type": "cltabs",
+          "settings": {
+            "title": "Accessories",
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "cltabs_JDfHbU",
+        "cltabs_A6DJpM",
+        "cltabs_UXX3q9",
+        "cltabs_ndn9Rp"
+      ],
+      "name": "t:sections.product_tabs.name",
+      "settings": {
+        "title": "Our Trending Products",
+        "subtitle": "Discover everything you need",
+        "top-offeset": "default",
+        "section_width": false,
+        "npd": false,
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "bgg": "",
+        "prbox_style": "style1",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "rows": 5,
+        "secondary_image": true,
+        "show_vendor": false,
+        "prlist_btn_show": false,
+        "btn_mobiles": false,
+        "show_color_swatch": true,
+        "color_type": "vrimage",
+        "v_f_bg_position": "50% 0",
+        "color_size": "medium",
+        "tab-style": "2",
+        "fs": 14,
+        "ff": "ft1",
+        "fw": "400",
+        "cl": "#666666",
+        "bg": "#ffffff",
+        "bd": "#eeeeee",
+        "bdr": 20,
+        "cla": "#ffffff",
+        "bga": "#0d223f",
+        "bda": "#0d223f",
+        "fsm": 14,
+        "clm": "#0d223f",
+        "bgm": "#eeeeee",
+        "clma": "#ffffff",
+        "bgma": "#0d223f"
+      }
+    },
+    "section_space_yGTeNW": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#ffffff"
+      }
+    },
+    "custom_content_7cHqLN": {
+      "type": "custom-content",
+      "blocks": {
+        "text_3icYkq": {
+          "type": "text",
+          "settings": {
+            "title": "Take Your Style to the Next Level!",
+            "tff": "ft2",
+            "fs": 25,
+            "fsm": 20,
+            "fw": "600",
+            "lh": 1.2,
+            "text": "<p>Discover Your Style Inspiration Here!</p>",
+            "dfs": 16,
+            "dlh": 1.3,
+            "dfsm": 14,
+            "btntxt": "SHOP NOW",
+            "btnurl": "shopify://collections/women-11",
+            "btn-style": "bdr-btn2",
+            "width": "wd50-md",
+            "alignment": "f-asc",
+            "align_text": "tl",
+            "eblock_bg": false,
+            "block_bg": "#f5f5f5",
+            "bg_rad": 0,
+            "block_txt": "#000000"
+          }
+        },
+        "text_KwyCye": {
+          "type": "text",
+          "settings": {
+            "title": "Fashion Forward Finds",
+            "tff": "ft2",
+            "fs": 25,
+            "fsm": 20,
+            "fw": "600",
+            "lh": 1.2,
+            "text": "<p>Explore the Newest Trends for Both Men and Women!</p>",
+            "dfs": 16,
+            "dlh": 1.3,
+            "dfsm": 14,
+            "btntxt": "SHOP NOW",
+            "btnurl": "shopify://collections/new-arrivals-w",
+            "btn-style": "bdr-btn2",
+            "width": "wd50-md",
+            "alignment": "f-asc",
+            "align_text": "tl",
+            "eblock_bg": false,
+            "block_bg": "#f5f5f5",
+            "bg_rad": 0,
+            "block_txt": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_3icYkq",
+        "text_KwyCye"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_width": false,
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "bgg": "",
+        "grid-spacing": 30,
+        "grid-spacing-mbl": 10,
+        "prbox_style": "style1",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-md"
+      }
+    },
+    "hero_Gbq9VV": {
+      "type": "hero",
+      "settings": {
+        "top-offeset": "default",
+        "section_width": true,
+        "npd": true,
+        "hide_mobile": false,
+        "hided": false,
+        "ds_height": 700,
+        "tb_height": 350,
+        "mb_height": 350,
+        "parallax_scroll": true,
+        "image": "shopify://shop_images/Desktop_Banner_1520_x_750_px_1_1_1512x_45d27951-b961-41c1-8eed-641edb65e318.jpg",
+        "alignment": "center",
+        "pretext": "",
+        "pcl": "#ffffff",
+        "pfs": 15,
+        "pfsm": 13,
+        "pff": "ft1",
+        "pfw": "600",
+        "plh": 1.3,
+        "pmb": 10,
+        "pmbm": 5,
+        "title": "<br>",
+        "tcl": "#ffffff",
+        "tfs": 80,
+        "tfsm": 40,
+        "tff": "ft2",
+        "tfw": "500",
+        "tlh": 1,
+        "tmb": 25,
+        "tmbm": 5,
+        "text": "",
+        "cl": "#ffffff",
+        "fs": 14,
+        "fsm": 14,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 30,
+        "mbm": 20,
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/new-arrivals",
+        "link_image": false,
+        "btn-style": "btn2",
+        "btn-size-desk": "btn-lg",
+        "btn-size-mob": "mob-btn-md",
+        "isbox": false,
+        "bg": "#ffffff",
+        "opt": 0,
+        "bdr": 16,
+        "ibdr": 0,
+        "bmw": 450,
+        "textalign": "tc",
+        "bxalign": "f-jcc-md f-aic-md",
+        "bxalignm": "f-jcc f-aie",
+        "wd": 1200,
+        "hero_dealtimer": false,
+        "cnt_date": "",
+        "cntbg": "#000000",
+        "cntcl": "#eeeeee",
+        "cntbd": "#000000",
+        "snow_effect": false,
+        "snow_style": "style1"
+      }
+    },
+    "scrolling_text_M9HEMi": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_block_B6UHyy": {
+          "type": "text_block",
+          "settings": {
+            "icn": "",
+            "title": "BIG OFFER - CYBER WEEK SALE. GET 50% OFF NOW.",
+            "url": ""
+          }
+        },
+        "text_block_wmQJqd": {
+          "type": "text_block",
+          "settings": {
+            "icn": "",
+            "title": "LOWEST PRICE OF THE YEAR - GET 50% OFF NOW.",
+            "url": ""
+          }
+        },
+        "text_block_zXx7Rt": {
+          "type": "text_block",
+          "settings": {
+            "icn": "",
+            "title": "BIG OFFER - CYBER WEEK SALE. GET 50% OFF NOW.",
+            "url": ""
+          }
+        },
+        "text_block_jTdHCY": {
+          "type": "text_block",
+          "settings": {
+            "icn": "",
+            "title": "LOWEST PRICE OF THE YEAR - GET 50% OFF NOW.",
+            "url": ""
+          }
+        },
+        "text_block_TFtxUD": {
+          "type": "text_block",
+          "settings": {
+            "icn": "",
+            "title": "Please note that due to the Eid al-Adha holiday, deliveries may experience a delay. We appreciate your patience and understanding.",
+            "url": ""
+          }
+        },
+        "text_block_qiVNXG": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "icn": "",
+            "title": "Please note that due to the Eid al-Adha holiday, deliveries may experience a delay. We appreciate your patience and understanding.",
+            "url": ""
+          }
+        },
+        "text_block_MDjhNb": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "icn": "",
+            "title": "Please note that due to the Eid al-Adha holiday, deliveries may experience a delay. We appreciate your patience and understanding.",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_B6UHyy",
+        "text_block_wmQJqd",
+        "text_block_zXx7Rt",
+        "text_block_jTdHCY",
+        "text_block_TFtxUD",
+        "text_block_qiVNXG",
+        "text_block_MDjhNb"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".page-width {overflow: hidden;}"
+      ],
+      "name": "t:sections.scrolling_text.name",
+      "settings": {
+        "cl": "#fff",
+        "bg": "#0d223f",
+        "bgg": "",
+        "fs": 14,
+        "fsm": 14,
+        "ff": "ft1",
+        "tfw": "500",
+        "padding": 20,
+        "speed": 40,
+        "speedm": 40,
+        "hide_mobile": false,
+        "hided": false
+      }
+    },
+    "scrolling_text_ygEp8p": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_block_9B36ie": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "icn": "at-badge-percent",
+            "title": "Register and get 15% off on your first purchase",
+            "url": "shopify://collections/women-11"
+          }
+        },
+        "text_block_nHtA86": {
+          "type": "text_block",
+          "settings": {
+            "icn": "at-ship-fast",
+            "title": "3 Days Delivery",
+            "url": ""
+          }
+        },
+        "text_block_r6WWAC": {
+          "type": "text_block",
+          "settings": {
+            "icn": "at-free-delivery",
+            "title": "FREE DELIVERY",
+            "url": ""
+          }
+        },
+        "text_block_VedW3f": {
+          "type": "text_block",
+          "settings": {
+            "icn": "at-badge-dollar fs16",
+            "title": "14 Days Free Return",
+            "url": ""
+          }
+        },
+        "text_block_UrM6LG": {
+          "type": "text_block",
+          "settings": {
+            "icn": "at-ship-fast",
+            "title": "3 Days Delivery",
+            "url": ""
+          }
+        },
+        "text_block_ExjbFT": {
+          "type": "text_block",
+          "settings": {
+            "icn": "at-free-delivery",
+            "title": "FREE DELIVERY",
+            "url": ""
+          }
+        },
+        "text_block_yDWPEx": {
+          "type": "text_block",
+          "settings": {
+            "icn": "at-badge-dollar fs16",
+            "title": "14 Days Free Return",
+            "url": ""
+          }
+        },
+        "text_block_H8BwLr": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "icn": "at-badge-percent",
+            "title": "Register and get 15% off on your first purchase",
+            "url": ""
+          }
+        },
+        "text_block_RdGijW": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "icn": "at-check-badge-r fs16",
+            "title": "MONEY BACK GUARANTEE",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_9B36ie",
+        "text_block_nHtA86",
+        "text_block_r6WWAC",
+        "text_block_VedW3f",
+        "text_block_UrM6LG",
+        "text_block_ExjbFT",
+        "text_block_yDWPEx",
+        "text_block_H8BwLr",
+        "text_block_RdGijW"
+      ],
+      "settings": {
+        "cl": "#f9f9f9",
+        "bg": "#0d223f",
+        "bgg": "",
+        "fs": 13,
+        "fsm": 12,
+        "ff": "ft1",
+        "tfw": "400",
+        "padding": 20,
+        "speed": 24,
+        "speedm": 25,
+        "hide_mobile": true,
+        "hided": false
+      }
+    },
+    "products_rows_zbWiXW": {
+      "type": "products-rows",
+      "settings": {
+        "title": "Summer Special",
+        "subtitle": "We picked some items just for you",
+        "collection": "all",
+        "top-offeset": "default",
+        "section_width": false,
+        "npd": false,
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "bgg": "",
+        "prbox_style": "style1",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "rows": 8,
+        "secondary_image": true,
+        "show_vendor": false,
+        "prlist_btn_show": false,
+        "btn_mobiles": true,
+        "show_color_swatch": true,
+        "color_type": "vrimage",
+        "vr_bg_position": "50% 0",
+        "color_size": "medium",
+        "show_view_all": "shop all",
+        "btn-style": "btn2",
+        "btn-size-desk": "btn-lg",
+        "btn-size-mob": "mob-btn-md"
+      }
+    },
+    "1633781759ce68e676": {
+      "type": "logo-list",
+      "blocks": {
+        "1561785365595-0": {
+          "type": "logo_image",
+          "settings": {
+            "link": "https://1.envato.market/x5PKR",
+            "opentab": true
+          }
+        },
+        "1561785365595-1": {
+          "type": "logo_image",
+          "settings": {
+            "link": "https://1.envato.market/Der4n",
+            "opentab": true
+          }
+        },
+        "logo_image_jjDrdi": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "1561785365595-2": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "1561785365595-5": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "1561785365595-3": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "logo_image_twhbzD": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        }
+      },
+      "block_order": [
+        "1561785365595-0",
+        "1561785365595-1",
+        "logo_image_jjDrdi",
+        "1561785365595-2",
+        "1561785365595-5",
+        "1561785365595-3",
+        "logo_image_twhbzD"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_width": false,
+        "npd": false,
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "bgg": "",
+        "img_rad": 0,
+        "grid": 7,
+        "tablet-grid": 5,
+        "mobile-grid": 3,
+        "enable_carousel": true,
+        "autoplay": false,
+        "speed": 5
+      }
+    },
+    "custom_content_DfKJp3": {
+      "type": "custom-content",
+      "blocks": {
+        "text_XHfPwn": {
+          "type": "text",
+          "settings": {
+            "title": "Sale\n\n <br><br>\n\n\n\n30% - 70% off    \n\n\n<br><br>",
+            "tff": "ft2",
+            "fs": 27,
+            "fsm": 20,
+            "fw": "500",
+            "lh": 1.2,
+            "text": "",
+            "dfs": 16,
+            "dlh": 1.3,
+            "dfsm": 14,
+            "btntxt": "SHOP NOW",
+            "btnurl": "shopify://collections/all-products",
+            "btn-style": "bdr-btn1",
+            "width": "wd33-md",
+            "alignment": "f-asc",
+            "align_text": "tc",
+            "eblock_bg": true,
+            "block_bg": "#8b1416",
+            "bg_rad": 0,
+            "block_txt": "#ffffff"
+          }
+        },
+        "collection_P7whRL": {
+          "type": "collection",
+          "settings": {
+            "collection": "men",
+            "collection_name": "Men",
+            "color_ttl": "#ffffff",
+            "color_bg": "#0d223f",
+            "tfs": 13,
+            "bfw": "500",
+            "blh": 1.2,
+            "tfsm": 14,
+            "bg_rad": 0,
+            "width": "wd33-md",
+            "alignment": "f-asc"
+          }
+        },
+        "collection_mDrwGD": {
+          "type": "collection",
+          "settings": {
+            "collection": "women",
+            "collection_name": "Women",
+            "color_ttl": "#ffffff",
+            "color_bg": "#0d223f",
+            "tfs": 14,
+            "bfw": "500",
+            "blh": 1.2,
+            "tfsm": 14,
+            "bg_rad": 0,
+            "width": "wd33-md",
+            "alignment": "f-asc"
+          }
+        }
+      },
+      "block_order": [
+        "text_XHfPwn",
+        "collection_P7whRL",
+        "collection_mDrwGD"
+      ],
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_width": false,
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "bgg": "",
+        "grid-spacing": 30,
+        "grid-spacing-mbl": 10,
+        "prbox_style": "style1",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
+    "section_space_Yw6mVV": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 10,
+        "color_bg": "#ffffff"
+      }
+    },
+    "section_space_fiUbJb": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#ffffff"
+      }
+    },
+    "instagram_shop_T68wUn": {
+      "type": "instagram-shop",
+      "blocks": {
+        "img_P8z7wT": {
+          "type": "img",
+          "settings": {
+            "title": "Trending 💕",
+            "cpt": "<p>Update your closet with some pretty new must haves</p>",
+            "url": "https://www.instagram.com/nautica_me/",
+            "product1": "martha-knit-top-new",
+            "p1_top": 30,
+            "p1_left": 27,
+            "product2": "high-waist-jeans",
+            "p2_top": 84,
+            "p2_left": 46,
+            "product3": "",
+            "p3_top": 1,
+            "p3_left": 1,
+            "product4": "",
+            "p4_top": 1,
+            "p4_left": 1
+          }
+        },
+        "img_ETwWkL": {
+          "type": "img",
+          "settings": {
+            "title": "Surprise ✨",
+            "cpt": "<p>Our new basics collection is here and It’s 25% OFF TODAY ONLY!!</p>",
+            "url": "",
+            "product1": "toledo-mules-shoes",
+            "p1_top": 60,
+            "p1_left": 18,
+            "product2": "high-waist-jeans",
+            "p2_top": 26,
+            "p2_left": 27,
+            "product3": "",
+            "p3_top": 1,
+            "p3_left": 1,
+            "product4": "",
+            "p4_top": 1,
+            "p4_left": 1
+          }
+        },
+        "img_g4Jei8": {
+          "type": "img",
+          "settings": {
+            "title": "",
+            "cpt": "",
+            "url": "",
+            "product1": "",
+            "p1_top": 1,
+            "p1_left": 1,
+            "product2": "",
+            "p2_top": 1,
+            "p2_left": 1,
+            "product3": "",
+            "p3_top": 1,
+            "p3_left": 1,
+            "product4": "",
+            "p4_top": 1,
+            "p4_left": 1
+          }
+        },
+        "img_A4tLKQ": {
+          "type": "img",
+          "settings": {
+            "title": "",
+            "cpt": "",
+            "url": "",
+            "product1": "",
+            "p1_top": 1,
+            "p1_left": 1,
+            "product2": "",
+            "p2_top": 1,
+            "p2_left": 1,
+            "product3": "",
+            "p3_top": 1,
+            "p3_left": 1,
+            "product4": "",
+            "p4_top": 1,
+            "p4_left": 1
+          }
+        },
+        "img_ayqwjC": {
+          "type": "img",
+          "settings": {
+            "title": "",
+            "cpt": "",
+            "url": "",
+            "product1": "",
+            "p1_top": 1,
+            "p1_left": 1,
+            "product2": "",
+            "p2_top": 1,
+            "p2_left": 1,
+            "product3": "",
+            "p3_top": 1,
+            "p3_left": 1,
+            "product4": "",
+            "p4_top": 1,
+            "p4_left": 1
+          }
+        },
+        "img_bDhdQt": {
+          "type": "img",
+          "settings": {
+            "title": "",
+            "cpt": "",
+            "url": "",
+            "product1": "",
+            "p1_top": 1,
+            "p1_left": 1,
+            "product2": "",
+            "p2_top": 1,
+            "p2_left": 1,
+            "product3": "",
+            "p3_top": 1,
+            "p3_left": 1,
+            "product4": "",
+            "p4_top": 1,
+            "p4_left": 1
+          }
+        },
+        "img_y7YHTm": {
+          "type": "img",
+          "settings": {
+            "title": "",
+            "cpt": "",
+            "url": "",
+            "product1": "",
+            "p1_top": 1,
+            "p1_left": 1,
+            "product2": "",
+            "p2_top": 1,
+            "p2_left": 1,
+            "product3": "",
+            "p3_top": 1,
+            "p3_left": 1,
+            "product4": "",
+            "p4_top": 1,
+            "p4_left": 1
+          }
+        },
+        "img_7cnbFP": {
+          "type": "img",
+          "settings": {
+            "title": "",
+            "cpt": "",
+            "url": "",
+            "product1": "",
+            "p1_top": 1,
+            "p1_left": 1,
+            "product2": "",
+            "p2_top": 1,
+            "p2_left": 1,
+            "product3": "",
+            "p3_top": 1,
+            "p3_left": 1,
+            "product4": "",
+            "p4_top": 1,
+            "p4_left": 1
+          }
+        }
+      },
+      "block_order": [
+        "img_P8z7wT",
+        "img_ETwWkL",
+        "img_g4Jei8",
+        "img_A4tLKQ",
+        "img_ayqwjC",
+        "img_bDhdQt",
+        "img_y7YHTm",
+        "img_7cnbFP"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SHOP OUR INSTAGRAM",
+        "subtitle": "@NAUTICA_ME",
+        "top-offeset": "default",
+        "section_width": false,
+        "npd": true,
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": false,
+        "bg": "#f9f9f9",
+        "bgg": "",
+        "grid-spacing": 5,
+        "grid-spacing-mbl": 5,
+        "grid": 4,
+        "tablet-grid": 4,
+        "mobile-grid": 2,
+        "enable_carousel": false,
+        "autoplay": false,
+        "speed": 5,
+        "brd": 5,
+        "isbtn": true,
+        "btn": "View on Instagram",
+        "btn-style": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-md"
+      }
+    },
+    "quotes_H9KQk6": {
+      "type": "quotes",
+      "blocks": {
+        "quote_YqJBcC": {
+          "type": "quote",
+          "settings": {
+            "title": "Feature Availability",
+            "quote": "<p>This is a wonderful theme. Very easy to use. Very easy to customize. The new version has lots of great additions and is still easy to work with. Also, customer service excellent</p>",
+            "author": "Simon Williams <br><br>",
+            "display_rat": true,
+            "rating": 5
+          }
+        },
+        "quote_PPVUij": {
+          "type": "quote",
+          "settings": {
+            "title": "Theme Flexibility",
+            "quote": "<p>This is a wonderful theme. Very easy to use. Very easy to customize. The new version has lots of great additions and is still easy to work with. Also, customer service excellent.</p>",
+            "author": "Rossy Ogawa<br><br>",
+            "display_rat": true,
+            "rating": 5
+          }
+        },
+        "quote_yNheTR": {
+          "type": "quote",
+          "settings": {
+            "title": "Incredible UI/UX",
+            "quote": "<p>This is a wonderful theme. Very easy to use. Very easy to customize. The new version has lots of great additions and is still easy to work with. Also, customer service excellent</p>",
+            "author": "Author's name<br><br>",
+            "display_rat": true,
+            "rating": 5
+          }
+        },
+        "quote_UedNig": {
+          "type": "quote",
+          "settings": {
+            "title": "Incredible UI/UX",
+            "quote": "<p>This is a wonderful theme. Very easy to use. Very easy to customize. The new version has lots of great additions and is still easy to work with. Also, customer service excellent</p>",
+            "author": "Author's name",
+            "display_rat": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_YqJBcC",
+        "quote_PPVUij",
+        "quote_yNheTR",
+        "quote_UedNig"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "top-offeset": "default",
+        "section_width": false,
+        "hide_mobile": false,
+        "hided": false,
+        "bg": "#111111",
+        "bgg": "radial-gradient(rgba(254, 234, 201, 1), rgba(254, 197, 203, 1) 100%)",
+        "quoteStyle": "style2",
+        "stcl": "#000000",
+        "qcl": "#333333",
+        "tfs": 18,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.3,
+        "qfs": 15,
+        "qfsm": 14,
+        "lh": 1.6,
+        "rcl": "#111111",
+        "rfs": 14,
+        "isbox": true,
+        "qbg": "#ffffff",
+        "bg_rad": 10,
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrow": true,
+        "arwCl": "#000000",
+        "arwBg": "#ffffff",
+        "dots": false,
+        "dotCl": "#000000"
+      }
+    },
+    "featured_blog_Lh4zdq": {
+      "type": "featured-blog",
+      "disabled": true,
+      "name": "t:sections.blog.section.name",
+      "settings": {
+        "title": "NAUTICA STORIES",
+        "subtitle": "Get to know more about us",
+        "top-offeset": "default",
+        "hide_mobile": false,
+        "hided": false,
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "bgg": "",
+        "blog": "news",
+        "img_ratio": "50",
+        "img_rad": 0,
+        "post_limit": 3,
+        "grid": 3,
+        "tablet-grid": 2,
+        "mobile-grid": 1,
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_comment": true,
+        "show_mini_des": true,
+        "twords": 50,
+        "show_read_more": true,
+        "color_ttl": "#111111",
+        "blogfs": 16,
+        "blogfsm": 14,
+        "blogtf": "font2",
+        "blogtw": "fw-600",
+        "blh": 1.2,
+        "blog_align": "tl",
+        "show_view_all": false,
+        "btn-style": "btn2",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "nexgi_lookbook_image_BQHGTm",
+    "collection_list_LUGgDt",
+    "collection_list_xe9YPh",
+    "collection_tab_Ay6kBn",
+    "section_space_yGTeNW",
+    "custom_content_7cHqLN",
+    "hero_Gbq9VV",
+    "scrolling_text_M9HEMi",
+    "scrolling_text_ygEp8p",
+    "products_rows_zbWiXW",
+    "1633781759ce68e676",
+    "custom_content_DfKJp3",
+    "section_space_Yw6mVV",
+    "section_space_fiUbJb",
+    "instagram_shop_T68wUn",
+    "quotes_H9KQk6",
+    "featured_blog_Lh4zdq"
+  ]
+}

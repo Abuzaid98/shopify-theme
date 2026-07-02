@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {
+        "section_width": false,
+        "hide_hdft": false,
+        "breadcrumb": false,
+        "bnr": false,
+        "bheight": 300,
+        "bheightipad": 200,
+        "bheightmob": 100,
+        "bnr-wd": 600,
+        "show_collection_name": false,
+        "ftTtl": 42,
+        "ftTtlm": 20,
+        "ttlft": "font2",
+        "ttlwt": "fw-700",
+        "ttlcase": "tt-u",
+        "ftTxt": 15,
+        "ttlclr": "#000000",
+        "clr_bg": "#f5f5f5",
+        "width": 1200,
+        "hide_ttl": false
+      }
+    },
+    "store_section_custom": {
+      "type": "store-section",
+      "blocks": {
+        "combined_block_qxPJnQ": {
+          "type": "Combined-block",
+          "settings": {
+            "tabName": "Dubai Outlet Mall",
+            "storeName": "Nautica Store - Dubai Outlet Mall",
+            "storeCity": "Dubai",
+            "storeTiming": "Open Daily: 10 AM – 12AM",
+            "storeAddress": "Route 66 - Al Ain - Dubai Rd - Madinat Hind 1 - Dubai - United Arab Emirates",
+            "storeDistance": "20.0 km away from Downtown Dubai",
+            "storePhone": "+971 04-3359928",
+            "storeEmail": "support@nautica-ae.com",
+            "storeDirectionUrl": "https://maps.app.goo.gl/Tqi8zKpC7M3Aoyn87",
+            "storeLocationIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231103.49202270404!2d55.21481130882739!3d25.1697458518419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f64a9adde0391%3A0xccb93df3295373f7!2sDubai%20Outlet%20Mall!5e0!3m2!1sen!2sin!4v1778831453970!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+          }
+        },
+        "combined_block_z4GVgz": {
+          "type": "Combined-block",
+          "settings": {
+            "tabName": "Burjuman",
+            "storeName": "Nautica Store - Burjuman",
+            "storeCity": "Dubai",
+            "storeTiming": "Open Daily: 10 AM – 10 PM",
+            "storeAddress": "Mankhool, Bur Dubai - Dubai - United Arab Emirates",
+            "storeDistance": "10.0 km away from Downtown Dubai",
+            "storePhone": "+971 4 252 0487",
+            "storeEmail": "support@nautica-ae.com",
+            "storeDirectionUrl": "https://maps.app.goo.gl/RHtF4CjiDUDzrxHT7",
+            "storeLocationIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28867.904444290787!2d55.26443027431641!3d25.254162500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f430c10330049%3A0xfd09da9a644fcd93!2sNautica!5e0!3m2!1sen!2sae!4v1778831646849!5m2!1sen!2sae\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+          }
+        },
+        "store_dubai_hills": {
+          "type": "Combined-block",
+          "settings": {
+            "tabName": "Dubai Hills Mall",
+            "storeName": "Nautica Store - Dubai Hills Mall",
+            "storeCity": "Dubai",
+            "storeTiming": "Open Daily: 9 AM – 11 PM",
+            "storeAddress": "Al Khail Rd - Dubai - United Arab Emirates",
+            "storeDistance": "17.0 km away from Downtown Dubai",
+            "storePhone": "+97147187048",
+            "storeEmail": "support@nautica-ae.com",
+            "storeDirectionUrl": "https://maps.google.com/?q=Dubai+Hills+Mall",
+            "storeLocationIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1716056816194!2d55.275917675381734!3d25.197434727710803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682829c85c07%3A0xa5eda9fb3c93b69d!2sDubai%20Mall!5e0!3m2!1sen!2sin!4v1744803861302!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+          }
+        },
+        "store_dubai_mall": {
+          "type": "Combined-block",
+          "settings": {
+            "tabName": "Dubai Mall",
+            "storeName": "Nautica Store - The Dubai Mall",
+            "storeCity": "Dubai",
+            "storeTiming": "Open Daily: 10 AM – 12 AM",
+            "storeAddress": "Financial Center Rd - Dubai - United Arab Emirates",
+            "storeDistance": "5.0 km away from Downtown Dubai",
+            "storePhone": "+97143394567",
+            "storeEmail": "dubaimall@nautica-ae.com",
+            "storeDirectionUrl": "https://maps.google.com/?q=Dubai+Mall",
+            "storeLocationIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1716056816194!2d55.275917675381734!3d25.197434727710803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682829c85c07%3A0xa5eda9fb3c93b69d!2sDubai%20Mall!5e0!3m2!1sen!2sin!4v1744803861302!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+          }
+        },
+        "store_deira": {
+          "type": "Combined-block",
+          "settings": {
+            "tabName": "Deira City Center",
+            "storeName": "Nautica Store - Deira City Centre",
+            "storeCity": "Dubai",
+            "storeTiming": "Open Daily: 10 AM – 10 PM",
+            "storeAddress": "8th St - Port Saeed - Deira - Dubai",
+            "storeDistance": "12.0 km away from Downtown Dubai",
+            "storePhone": "+97142952000",
+            "storeEmail": "deira@nautica-ae.com",
+            "storeDirectionUrl": "https://maps.google.com/?q=Deira+City+Centre",
+            "storeLocationIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.823!2d55.3295!3d25.2525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d2b3c1234!2sDeira%20City%20Centre!5e0!3m2!1sen!2sae!4v1628000000000!5m2!1sen!2sae\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+          }
+        }
+      },
+      "block_order": [
+        "combined_block_qxPJnQ",
+        "combined_block_z4GVgz",
+        "store_dubai_hills",
+        "store_dubai_mall",
+        "store_deira"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "page",
+    "store_section_custom"
+  ]
+}

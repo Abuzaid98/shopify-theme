@@ -1,0 +1,133 @@
+.stores__top{
+    padding: 40px 0;
+    background-color: #f1f1f15e;
+}
+.stores__tabs{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:16px;
+  color:#000;
+  margin:20px 0;
+}
+.stores__tabs > p{
+  margin:0;
+}
+.stores__tabs ul{
+  list-style:none;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:8px;  
+}
+.stores__tabs ul li{
+  padding:5px 16px;
+  border:1px solid #b8b8b8;
+  cursor: pointer;
+  transition: .3s all;
+}
+.stores__tabs ul li.active{
+  border-color: #000;
+  background-color: #f1f1f1;
+}
+.stores__content{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 20px 0;
+  color:#000;
+}
+.stores__left{
+  padding: 0px 40px 20px 20px;
+  height: 60vh;
+  overflow-y: scroll;
+}
+/* scroll bar css */
+.stores__left::-webkit-scrollbar {
+    width: 8px;
+}
+.stores__left::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.stores__left::-webkit-scrollbar-thumb {
+    background: #949494;
+    border-radius: 6px;
+    transition: .3s all ;
+}
+.stores__left::-webkit-scrollbar-thumb:hover {
+    background: #0288d1;
+}
+/* end */
+
+.stores__details{
+  margin-bottom:30px;
+}
+.stores__left p{
+  margin-bottom: 5px;
+}
+.stores__phone, .stores__email{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+}
+.stores__phone i, .stores__email i{
+  font-size: 20px;
+}
+.stores__direction{
+  margin-top: 5px;
+}
+.stores__direction a{
+  display:inline-block;
+  padding:8px 16px;
+  border:1px solid #b8b8b8;
+  font-weight:bold;
+  transition: .3s all;
+}
+.stores__direction a:hover{
+  border-color: #000;
+}
+.stores__right{
+  padding-left: 20px;
+}
+.stores__right .stores__map:not(:first-child){
+  display:none;
+}
+.stores__right iframe{
+  width: 100%;
+}
+
+@media (max-width: 524px) {
+  .stores__top{
+    padding: 20px 0;
+  }
+  .stores h1{
+    font-size: 20px;
+  }
+  .stores__tabs{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .stores__tabs > *{
+    flex: 1 0 auto;
+  }
+  .stores__tabs ul {
+    justify-content: start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding: 10px 8px;
+  }
+  .stores__tabs ul li{
+    flex: 1 0 auto;    
+  }
+  .stores__content {
+    grid-template-columns: 1fr;
+  }
+  .stores__left{
+    order: 2;
+    padding: 20px 0px;
+    height: unset;
+    overflow-y: unset;
+  }
+  .stores__right {
+    padding-left: 0px;
+  }
+}
